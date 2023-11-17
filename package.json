@@ -106,14 +106,17 @@
           ]
         }
       ],
-      ["@semantic-release/github", {
-        "assets": [
-          {
-            "path": "dist/*",
-            "label": "Distribution"
-          }
-        ]
-      }]
+      [
+        "@semantic-release/github",
+        {
+          "assets": [
+            {
+              "path": "dist/*",
+              "label": "Distribution"
+            }
+          ]
+        }
+      ]
     ]
   }
 }

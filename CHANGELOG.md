@@ -1,3 +1,10 @@
+## [2.1.4](https://github.com/guslen/test-semantic-release-config/compare/v2.1.3...v2.1.4) (2023-11-17)
+
+
+### Bug Fixes
+
+* extract .tgz file name via function ([83d2e26](https://github.com/guslen/test-semantic-release-config/commit/83d2e26a02196040e28428a56e180bebb75c44e2))
+
 ## [2.1.3](https://github.com/guslen/test-semantic-release-config/compare/v2.1.2...v2.1.3) (2023-11-17)
 
 

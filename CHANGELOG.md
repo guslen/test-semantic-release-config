@@ -1,3 +1,10 @@
+## [2.1.9](https://github.com/guslen/test-semantic-release-config/compare/v2.1.8...v2.1.9) (2023-11-17)
+
+
+### Bug Fixes
+
+* added proper archive creation ([5617a24](https://github.com/guslen/test-semantic-release-config/commit/5617a247a12a54c02d723437dfca82131af4f889))
+
 ## [2.1.8](https://github.com/guslen/test-semantic-release-config/compare/v2.1.7...v2.1.8) (2023-11-17)
 
 

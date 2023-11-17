@@ -23,6 +23,11 @@
     "type": "git",
     "url": "https://github.com/guslen/test-semantic-release-config.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  },
   "files": [
     "dist"
   ],

@@ -1,3 +1,10 @@
+## [2.1.7](https://github.com/guslen/test-semantic-release-config/compare/v2.1.6...v2.1.7) (2023-11-17)
+
+
+### Bug Fixes
+
+* run npm pack before release ([5cdc281](https://github.com/guslen/test-semantic-release-config/commit/5cdc281a864b82a19a2d23eb87bd112a16f612d0))
+
 ## [2.1.6](https://github.com/guslen/test-semantic-release-config/compare/v2.1.5...v2.1.6) (2023-11-17)
 
 

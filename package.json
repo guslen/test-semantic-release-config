@@ -28,7 +28,11 @@
   },
   "files": [
     "dist",
-    "src"
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md"
   ],
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
@@ -112,8 +116,8 @@
         {
           "assets": [
             {
-              "path": "dist/*",
-              "label": "Distribution"
+              "path": "*.tgz",
+              "label": "Artifact"
             }
           ]
         }

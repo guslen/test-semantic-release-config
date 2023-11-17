@@ -10,6 +10,5 @@
     "declaration": true,
     "incremental": true
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["dist"]
+  "include": ["src/**/*.ts"]
 }

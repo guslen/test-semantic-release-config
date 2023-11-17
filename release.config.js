@@ -1,9 +1,19 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
+/* eslint-disable @typescript-eslint/no-var-requires */
 const packageJson = require('./package.json');
+const fs = require('fs');
+const path = require('path');
+
 function getPackageName() {
+  fs.readdirSync(__dirname).forEach((file) => {
+    console.log(file);
+  });
   const { name, version } = packageJson;
   const transformedName = name.replace('@', '').replace('/', '-');
-  return `${transformedName}-${version}.tgz`;
+  const packageName = `${transformedName}-${version}.tgz`;
+  console.log(packageName);
+  const resolvedPackageName = path.resolve(__dirname, packageName);
+  console.log(resolvedPackageName);
+  return resolvedPackageName;
 }
 
 module.exports = {

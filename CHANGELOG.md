@@ -1,3 +1,10 @@
+## [2.1.5](https://github.com/guslen/test-semantic-release-config/compare/v2.1.4...v2.1.5) (2023-11-17)
+
+
+### Bug Fixes
+
+* moved to directory only for github release ([b595767](https://github.com/guslen/test-semantic-release-config/commit/b59576708575175115f7e1116b6bb76db7437ea8))
+
 ## [2.1.4](https://github.com/guslen/test-semantic-release-config/compare/v2.1.3...v2.1.4) (2023-11-17)
 
 

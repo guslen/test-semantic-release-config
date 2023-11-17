@@ -3,8 +3,6 @@ name: main
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
 
 jobs:
   test:
@@ -12,7 +10,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js 20
         uses: actions/setup-node@v3
         with:
           node-version: '20'
@@ -22,6 +20,8 @@ jobs:
         run: npm run check
       - name: Test
         run: npm run test
+      - name: Build
+        run: npm run build
 
   release:
     needs: test
@@ -33,7 +33,7 @@ jobs:
       id-token: write # to enable use of OIDC for npm provenance
     steps:
       - uses: actions/checkout@v3
-      - name: Setup Node.js
+      - name: Setup Node.js 20
         uses: actions/setup-node@v3
         with:
           node-version: '20'

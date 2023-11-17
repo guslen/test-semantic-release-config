@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/guslen/test-semantic-release-config/compare/v2.0.0...v2.1.0) (2023-11-17)
+
+
+### Features
+
+* added info about release ([7801e88](https://github.com/guslen/test-semantic-release-config/commit/7801e88ff64a16bcf500d3436664250e8c7e2a1e))
+
 # [2.0.0](https://github.com/guslen/test-semantic-release-config/compare/v1.0.1...v2.0.0) (2023-11-17)
 
 

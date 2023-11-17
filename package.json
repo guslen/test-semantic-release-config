@@ -116,8 +116,8 @@
         {
           "assets": [
             {
-              "path": "*.tgz",
-              "label": "Artifact"
+              "path": "guslen90-test-semantic-release-config-*.tgz",
+              "label": "Package"
             }
           ]
         }

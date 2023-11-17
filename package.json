@@ -8,7 +8,7 @@
     "build": "tsc",
     "test": "jest",
     "release": "semantic-release",
-    "release:dry-run": "semantic-release",
+    "release:dry-run": "semantic-release --dry-run --branches $(git branch) --repository-url $(git remote get-url origin) --ci false",
     "fix": "npm run lint && npm run fmt",
     "check": "npm run lint:check && npm run fmt:check",
     "lint": "eslint --max-warnings 0 --fix '**/*.{ts,mts,js}'",

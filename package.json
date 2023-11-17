@@ -12,9 +12,9 @@
     "fix": "npm run lint && npm run fmt",
     "check": "npm run lint:check && npm run fmt:check",
     "lint": "eslint --max-warnings 0 --fix '**/*.{ts,mts,js}'",
-    "fmt": "prettier --write '**/*.{json,yml}'",
+    "fmt": "prettier --write '**/*.{md,json,yml}'",
     "lint:check": "eslint --max-warnings 0 '**/*.{ts,mts,js}'",
-    "fmt:check": "prettier --check '**/*.{json,yml}'"
+    "fmt:check": "prettier --check '**/*.{md,json,yml}'"
   },
   "keywords": [],
   "author": "Gustav Lennart Voigt",
@@ -27,7 +27,8 @@
     "access": "public"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",

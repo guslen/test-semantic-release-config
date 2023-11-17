@@ -1,4 +1,4 @@
-name: tests
+name: main
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  pipeline:
+  main:
     runs-on: ubuntu-latest
 
     strategy:

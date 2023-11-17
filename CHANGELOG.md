@@ -1,3 +1,15 @@
+## [2.1.6](https://github.com/guslen/test-semantic-release-config/compare/v2.1.5...v2.1.6) (2023-11-17)
+
+
+### Bug Fixes
+
+* trying with script again ([585fcae](https://github.com/guslen/test-semantic-release-config/commit/585fcaec70c8424309581a5c35891fb4790ca80a))
+
+
+### Reverts
+
+* Revert "fix: moved to directory only for github release" ([99f0f5d](https://github.com/guslen/test-semantic-release-config/commit/99f0f5d33b8d2936a0683e28ad096e5b6b1ced88))
+
 ## [2.1.5](https://github.com/guslen/test-semantic-release-config/compare/v2.1.4...v2.1.5) (2023-11-17)
 
 

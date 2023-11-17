@@ -116,7 +116,7 @@
         {
           "assets": [
             {
-              "path": "guslen90-test-semantic-release-config-*.tgz",
+              "path": "./*.tgz",
               "label": "Package"
             }
           ]

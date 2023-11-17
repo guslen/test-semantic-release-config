@@ -1,3 +1,11 @@
+## [2.1.8](https://github.com/guslen/test-semantic-release-config/compare/v2.1.7...v2.1.8) (2023-11-17)
+
+
+### Bug Fixes
+
+* added zip step ([66987fc](https://github.com/guslen/test-semantic-release-config/commit/66987fc930c06d4a3d4d50208527a47c2c866aae))
+* removed archiver ([a0bf517](https://github.com/guslen/test-semantic-release-config/commit/a0bf5172b0725b77a77c5c04fb97c195afe80e8f))
+
 ## [2.1.7](https://github.com/guslen/test-semantic-release-config/compare/v2.1.6...v2.1.7) (2023-11-17)
 
 

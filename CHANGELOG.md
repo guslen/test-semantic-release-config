@@ -1,3 +1,10 @@
+## [2.1.3](https://github.com/guslen/test-semantic-release-config/compare/v2.1.2...v2.1.3) (2023-11-17)
+
+
+### Bug Fixes
+
+* set new path ([fefc666](https://github.com/guslen/test-semantic-release-config/commit/fefc6665d0ca3473634905b49569f8109575cc2c))
+
 ## [2.1.2](https://github.com/guslen/test-semantic-release-config/compare/v2.1.1...v2.1.2) (2023-11-17)
 
 

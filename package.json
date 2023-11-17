@@ -2,7 +2,7 @@
   "name": "@guslen90/test-semantic-release-config",
   "version": "1.0.1",
   "description": "",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "prepare": "husky install",
     "build": "rimraf dist && tsc",

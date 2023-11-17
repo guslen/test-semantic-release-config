@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/guslen/test-semantic-release-config/compare/v2.1.0...v2.1.1) (2023-11-17)
+
+
+### Bug Fixes
+
+* set correct package ([21952e6](https://github.com/guslen/test-semantic-release-config/commit/21952e6d09215f233cfaf800ff51fbe18b388d3a))
+
 # [2.1.0](https://github.com/guslen/test-semantic-release-config/compare/v2.0.0...v2.1.0) (2023-11-17)
 
 

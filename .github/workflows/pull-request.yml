@@ -7,18 +7,11 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
+    strategy:
+      matrix:
+        node-version: ['16', '18', '20']
     steps:
-      - uses: actions/checkout@v3
-      - name: Use Node.js 20
-        uses: actions/setup-node@v3
+      - uses: guslen/test-semantic-release-config/.github/workflows/test.yml@main
         with:
-          node-version: '20'
-      - name: Install dependencies
-        run: npm install
-      - name: Check and Lint
-        run: npm run check
-      - name: Test
-        run: npm run test
-      - name: Build
-        run: npm run build
+          nodeVersion: ${{ matrix.node-version }}
+          codeCoverageToken: ${{ secrets.CODECOV_TOKEN }}

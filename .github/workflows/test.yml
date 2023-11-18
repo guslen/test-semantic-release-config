@@ -1,0 +1,35 @@
+name: Test Job
+
+on:
+  workflow_call:
+    inputs:
+      nodeVersion:
+        type: string
+        required: true
+    secrets:
+      codeCoverageToken:
+        required: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ inputs.nodeVersion }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ inputs.nodeVersion }}
+      - name: Install dependencies
+        run: npm install
+      - name: Check and Lint
+        run: npm run check
+      - name: Test
+        run: npm run test
+      - name: Build
+        run: npm run build
+      - name: Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          files: ./coverage/coverage-final.json
+          token: ${{ secrets.codeCoverageToken }}

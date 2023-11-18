@@ -1,3 +1,15 @@
+## [2.1.10](https://github.com/guslen/test-semantic-release-config/compare/v2.1.9...v2.1.10) (2023-11-18)
+
+
+### Bug Fixes
+
+* added matrix based testing ([2eb3562](https://github.com/guslen/test-semantic-release-config/commit/2eb3562684ea70dc52084730ab62583be565192c))
+* corrected errors ([d8685cf](https://github.com/guslen/test-semantic-release-config/commit/d8685cf85773f2e523717278e7ef41eb062974d4))
+* fixed style issues ([59f50e9](https://github.com/guslen/test-semantic-release-config/commit/59f50e976684d944a3f7fe51a4bf2d463f4ecbe1))
+* removed assets from Github release ([19672b6](https://github.com/guslen/test-semantic-release-config/commit/19672b61cefb3cd5aaf955519db1d15313c50ee8))
+* removed code cov from inputs ([a2f1e26](https://github.com/guslen/test-semantic-release-config/commit/a2f1e2659a9996db8e17e8a538a920f21ccd8249))
+* removed secrets in workflow call ([2ddaa33](https://github.com/guslen/test-semantic-release-config/commit/2ddaa33e4af1698b70305e3d274a5898ca71f96d))
+
 ## [2.1.9](https://github.com/guslen/test-semantic-release-config/compare/v2.1.8...v2.1.9) (2023-11-17)
 
 

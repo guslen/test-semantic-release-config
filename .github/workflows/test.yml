@@ -2,9 +2,7 @@ name: Test Job
 
 on:
   workflow_call:
-    secrets:
-      codeCoverageToken:
-        required: true
+    secrets: inherit
 
 jobs:
   test:
@@ -31,4 +29,4 @@ jobs:
         uses: codecov/codecov-action@v3
         with:
           files: ./coverage/coverage-final.json
-          token: ${{ secrets.codeCoverageToken }}
+          token: ${{ secrets.CODECOV_TOKEN }}

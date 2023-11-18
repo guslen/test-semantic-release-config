@@ -7,8 +7,6 @@ on:
 jobs:
   test:
     uses: guslen/test-semantic-release-config/.github/workflows/test.yml@main
-    with:
-      codeCoverageToken: ${{ secrets.CODECOV_TOKEN }}
 
   release:
     needs: test

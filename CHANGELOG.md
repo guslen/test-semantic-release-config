@@ -1,3 +1,10 @@
+## [2.1.11](https://github.com/guslen/test-semantic-release-config/compare/v2.1.10...v2.1.11) (2023-11-18)
+
+
+### Bug Fixes
+
+* fixed style issues ([65e64ea](https://github.com/guslen/test-semantic-release-config/commit/65e64ea61d7bc8e6b025c47978fddc760344fc9b))
+
 ## [2.1.10](https://github.com/guslen/test-semantic-release-config/compare/v2.1.9...v2.1.10) (2023-11-18)
 
 

@@ -7,8 +7,7 @@
     "prepare": "husky install",
     "build": "rimraf dist && tsc",
     "test": "rimraf coverage && jest",
-    "release": "npm run check && npm test && npm run release:prepare && semantic-release",
-    "release:prepare": "npm run build && rimraf dist.zip && zip -vr dist.zip dist",
+    "release": "npm run check && npm test && npm run build && semantic-release",
     "release:dry-run": "semantic-release --dry-run --branches $(git branch) --repository-url $(git remote get-url origin)",
     "fix": "npm run lint && npm run fmt",
     "check": "npm run lint:check && npm run fmt:check",
@@ -112,17 +111,7 @@
           ]
         }
       ],
-      [
-        "@semantic-release/github",
-        {
-          "assets": [
-            {
-              "path": "dist.zip",
-              "label": "Package"
-            }
-          ]
-        }
-      ]
+      "@semantic-release/github"
     ]
   }
 }

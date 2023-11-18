@@ -1,3 +1,12 @@
+## [2.1.12](https://github.com/guslen/test-semantic-release-config/compare/v2.1.11...v2.1.12) (2023-11-18)
+
+
+### Bug Fixes
+
+* add dist folder to Github release ([7faf462](https://github.com/guslen/test-semantic-release-config/commit/7faf46298f4c11e44ebf2d8199e21b7a8b11d231))
+* add dist folder to Github release ([b4fabee](https://github.com/guslen/test-semantic-release-config/commit/b4fabeeddf80d6a70a3ee5887658e259058fbafb))
+* fixed fmt ([7759619](https://github.com/guslen/test-semantic-release-config/commit/7759619775fb843c90373bd24b8c7d70ca1dd935))
+
 ## [2.1.11](https://github.com/guslen/test-semantic-release-config/compare/v2.1.10...v2.1.11) (2023-11-18)
 
 

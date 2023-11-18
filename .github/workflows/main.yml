@@ -6,15 +6,9 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: ['16', '18', '20']
-    steps:
-      - uses: guslen/test-semantic-release-config/.github/workflows/test.yml@main
-        with:
-          nodeVersion: ${{ matrix.node-version }}
-          codeCoverageToken: ${{ secrets.CODECOV_TOKEN }}
+    uses: guslen/test-semantic-release-config/.github/workflows/test.yml@main
+    with:
+      codeCoverageToken: ${{ secrets.CODECOV_TOKEN }}
 
   release:
     needs: test
